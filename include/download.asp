@@ -1,1 +1,0 @@
-<script>alert('File not found'); history.back();</script>
