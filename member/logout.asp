@@ -1,0 +1,1 @@
+<script>location.href ='/member/loginForm.asp';</script>

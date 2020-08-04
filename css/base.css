@@ -1,0 +1,152 @@
+/* ========== base.css ver.2010 ========== /
+    http://www.eluocnc.com/
+    프로젝트	:	IMM
+    작성일		:	2011.01
+    수정일		:	2011.01
+    작업자		:	백명훈(leonato@eluocnc.com)
+========================================== */
+
+
+html, body {
+        margin:0px;
+        padding:0px;
+        font-size:0.85em;
+        font-family:돋움, dotum, sans-serif;
+        line-height:16px;
+        color:#666;
+        background-color:#fff;
+}
+html {overflow-y:scroll;}
+
+h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, form, fieldset, p {
+        margin:0;
+        padding:0;
+        list-style:none;
+        font-size:1em;
+        font-family:돋움, dotum, sans-serif;
+        color:#666;
+        font-weight:normal;
+}
+
+
+a:link		{color:#5267E4; text-decoration:underline;}
+a:visited	{color:#5267E4; text-decoration:underline;}
+a:hover	{color:#a1aae0; text-decoration:underline;}
+a:active	{color:#a1aae0; text-decoration:underline;}
+
+
+div, ul, li, p, tr, td {
+        margin:0;
+        padding:0;
+        font-family: 돋움, dotum, arial, curier, seoul;
+        font-size:1em;
+        color:#666;
+}
+
+ul, li {list-style:none;}
+
+img {border:0;}
+.png24 {_tmp:expression(setPng24(this));}
+
+table { border-collapse: collapse; border-spacing: 0; }
+caption {display: none; }
+
+hr {position:absolute; left:0; top:0; overflow:hidden; font-size:0; line-height:0; visibility:hidden; width:0px; height:0px;}
+.OllehHidden {position:absolute; left:0; top:0; overflow:hidden; font-size:0; line-height:0; visibility:hidden; width:0px; height:0px;}
+
+fieldset, form, label, legend
+{margin: 0; padding: 0;	border:0;}
+
+legend {display: none;}
+
+/*
+----- ALIGN
+*/
+
+/* 상하 */
+.vat {vertical-align:top;}
+.vam {vertical-align:middle;}
+.vab {vertical-align:bottom;}
+
+/* 좌우 */
+.tal {text-align:left;}
+.tac {text-align:center;}
+.tar {text-align:right;}
+
+.inline {display:inline;}
+.clear {clear:both;}
+
+
+/*
+----- FORM
+<input type="text" style="ime-mode:active;">  (한글 모드)
+<input type="text" style="ime-mode:inactive;"> (영문 모드)
+<input type="text  style="ime-mode:disabled;">  (오직 영문 모드)
+*/
+
+input {font-size:1em; color:#898989; vertical-align:middle; padding-top:2px; padding-left:5px; height:15px; font-family:돋움, arial, curier, seoul;}
+input[type=radio] {vertical-align:middle; margin-top:-2px; *margin-top:-3px;}
+.checkbox {border:none;}
+.input {border:1px solid #D2D2D2;}
+
+input.input_k {ime-mode:active;} /* 한글 */
+input.input_e {ime-mode:inactive;} /* 영문 */
+
+input.button {padding: 0; border: 0 !important;}
+
+textarea {
+        font-size:1em; font-family: 돋움, arial, curier, seoul;
+        color: #666; line-height:16px;
+        border:1px solid #ccc;
+        overflow:auto;
+        scrollbar-face-color:#ffffff;
+        scrollbar-highlight-color:#ffffff;
+        scrollbar-shadow-color:#d8d8d8;
+        scrollbar-3dlight-color:#d8d8d8;
+        scrollbar-arrow-color:#989898;
+        scrollbar-track-color:#fff;
+        scrollbar-darkshadow-color:#fff;
+        scrollbar-base-color:red;
+}
+
+select {
+        border:1px solid #d1d1d1;
+        color:#666;
+        font-size:1em;
+        font-family:돋움;
+        height:19px;
+        vertical-align:middle;
+}
+
+
+
+.pagingwrap {clear:both; margin-top:20px; margin-bottom:5px; position:relative; font:0.95em/120% Dotum;}
+.pagingwrap2 {margin-top:10px;}
+.all_page{position:absolute; left:0px; top:0px; font-size:0.95em; color:#647b8b;}
+.all_page img{vertical-align:middle;}
+.all_page span{color:#1995b9; }
+.all_page span a {color:#1995b9;}
+.page {float:left; color:#999999;}
+.page strong {color:#7fc141; font-weight:normal;}
+.paging{text-align:center; line-height:120%;}
+.paging img {vertical-align:middle; padding-bottom:1px;}
+.paging img a {vertical-align:middle;}
+.paging a {padding:0 5px 0 6px;  text-decoration:none; text-align:center; background:url('/img/bbs/page_sai.gif') no-repeat right 3px;}
+.paging strong{padding:0 5px 0 6px; color:#C02B2B; background:url('/img/bbs/page_sai.gif') no-repeat right 3px;}
+.paging a:link {color:#989898; text-decoration:none;}
+.paging a:hover {color:#C02B2B; text-decoration:underline;}
+.paging span a{padding:0 0 0 0px; background-image:none;}
+.paging span a img{vertical-align:middle; margin-bottom:2px;}
+.paging a.first-child{background:none;padding-left:8px;}
+.paging .none{background:none;}
+
+/* 버튼과함께해요 */
+.pagingwrap .paging2 {float:left; padding-left:205px; line-height:120%;}
+.pagingwrap .Btn {float:right;}
+
+/* 게시물 검색 */
+.boardSearch { width: 670px; padding-top: 30px; text-align:center; }
+.boardSearch .inputSelect { width: 70px; height: 20px; border: 1px solid #d1d1d1; color: #898989; margin-left: 15px; }
+.boardSearch .inputText { width: 200px; height: 15px; border: 1px solid #d1d1d1; color: #898989; }
+.boardSearch label { display: none;}
+.boardSearch .button { width: 46px; height: 20px; }

@@ -1,0 +1,58 @@
+/* 레이아웃 CSS 입니다 / 작업자 : 백명훈(leonato@eluocnc.com) */
+
+#Wrap {}
+
+/* Header */
+#Header {width:100%; position:absolute; top:0; left:0; height:110px;}
+#Header .header_i {height:110px; width:1000px; margin:0 auto; position:relative;}
+
+#Header h1 {float:left; padding-left:25px; width:210px; padding-top:35px;}
+
+#Header #mainMenu {float:left; width:750px;}
+
+#Header .topLink {position:absolute;top:16px; right:25px;}
+#Header .topLink li {display:inline; font-size:0px; }
+
+#Header .search_tong {position:absolute; top:43px; right:35px;}
+#Header .search_tong input ,#Header .search_tong img{vertical-align:middle;}
+#Header .search_tong input.search_input {color:#a7a7a7; font-size:11px; font-family:verdana; font-weight:bold; padding:0; margin:0; width:148px; padding-left:15px; height:24px; *height:19px; *padding-top:5px; border:none; background:url('/img/g/search_input_bg_on.gif') right top no-repeat;}
+#Header .search_tong .search_btn {padding:0; margin:0; width:27px; height:24px;}
+
+/* Bodyyo */
+#Bodyyo {vertical-align:top; min-height:410px; _height:410px; background:url('/img/g/cont_bg.gif') repeat-x 0 0;}
+#Bodyyo .Bodyyo_i {width:950px; margin:0 auto;padding-top:110px;}
+#Bodyyo .Bodyyo_i_main {min-height:600px; _height:670px; background:url('/img/c/main_bg.jpg') no-repeat center 0;}
+
+#Bodyyo #Lnb {float:left; width:210px; padding-top:21px;}
+#Bodyyo #Lnb h2 {padding-bottom:30px;}
+#Bodyyo #Container {padding-left:210px;}
+#Bodyyo #Container2 {padding:0 0 30px; min-height:410px; _height:410px;}
+#Bodyyo #Container2main {padding-left:562px; padding-top:171px;}
+#Bodyyo #Container100p {padding-left:0;} /* LNB없는 100%짜리 컨텐츠 */
+
+.cont_title {height:22px; padding-top:20px; margin-bottom:25px; background:url('/img/g/cont_title_bg.gif') repeat-x 0 bottom;}
+.cont_title h3 {font-family:verdana; font-size:15px; font-weight:bold; color:#0F0F0F; letter-spacing:-1px;}
+.cont_title h3.style2 {color:#046786; font-size:12px; letter-spacing:0;}
+.cont_title .path {float:right; margin-top:-14px; position:relative;}
+.cont_title .path ul {}
+.cont_title .path ul li {float:left; padding-right:14px; color:#000; font-size:11px; font-family:verdana; background:url('/img/g/path_sai.gif') no-repeat right 8px;}
+.cont_title .path ul li.here {padding-right:5px; color:#2D6782; background:none;}
+.cont_title .path ul li strong {font-weight:normal;}
+
+#Bodyyo #Container .cont {}
+#Bodyyo #Container2 .cont {padding:0 110px;}
+
+
+/* Footer */
+#Footer {width:100%; overflow:hidden; padding-top:60px; padding-bottom:0px; background:url('/img/g/footer_bg.gif') repeat-x 0 60px;}
+#Footer .footer_i {width:950px; margin:0 auto;}
+#Footer .copyright {text-align:center;}
+#Footer .links {float:right; margin-top:-21px; height:21px;}
+#Footer .links ul.links_ul {}
+#Footer .links ul.links_ul li {float:left;}
+#Footer .links ul.links_ul li.links_li_last {width:122px;}
+
+#Footer .links ul.links_ul li .familybox {position:relative; width:122px; z-index:99;}
+#Footer .links ul.links_ul li .familybox .family_site {position:absolute; *top:-52px; top:-56px; _top:-50px;  right:0; width:110px; padding:8px 0 4px 11px;background:#6b1a19; z-index:9999;}
+#Footer .links ul.links_ul li .familybox .family_site ul.family_site_ul li {width:110px; padding-bottom:6px; }
+#Footer .links ul.links_ul li .familybox .family_site ul.family_site_ul li.last {padding-bottom:none;}   

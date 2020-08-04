@@ -1,0 +1,128 @@
+/* 컨텐츠 CSS 입니다 / 작업자 : 백명훈(leonato@eluocnc.com) */
+
+/* bbsList */
+.bbsList {}
+.bbsList table {table-layout:fixed; border-collapse:collapse; border-left:1px solid #d6d6d4; border-top:1px solid #d6d6d4;}
+.bbsList thead {}
+.bbsList thead tr {}
+.bbsList thead th {min-height:30px; height:30px; border-right:1px solid #d6d6d4; border-bottom:1px solid #d6d6d4; background:url('/img/c/list_th_bg.gif') repeat-x 0 0;}
+.bbsList tbody {}
+.bbsList tbody tr {}
+.bbsList tbody td { word-wrap:break-word; word-break:break-all; vertical-align:top; padding:7px 5px 6px; text-align:center; border-right:1px solid #d6d6d4; border-bottom:1px solid #d6d6d4; background:#fff;}
+.bbsList tbody td p {text-align:left; padding-left:10px; color:#505050; font-size:11px; font-family:verdana;}
+.bbsList tbody td .time {margin-left:10px;}
+
+
+.bbsWrite{}
+.bbsWrite table {width:99.5%; table-layout:fixed; border-collapse:collapse; border-left:1px solid #d6d6d4; border-top:1px solid #d6d6d4;}
+.bbsWrite tbody {}
+.bbsWrite tbody tr {}
+.bbsWrite tbody th {border-right:1px solid #d6d6d4; border-bottom:1px solid #d6d6d4; background:#e6e8e9; vertical-align:top; padding-top:10px;}
+.bbsWrite tbody th p {text-align:left; padding-left:20px;}
+.bbsWrite tbody td {padding-top:5px; padding-bottom:4px; border-right:1px solid #d6d6d4; border-bottom:1px solid #d6d6d4; background:#fff;}
+.bbsWrite tbody td p {text-align:left; padding-left:10px; color:#505050; font-size:11px; font-family:'굴림';}
+.bbsWrite tbody td p select {border:1px solid #e3e3e3; color:#8d8d8d;}
+.bbsWrite tbody td p input {border:1px solid #e3e3e3; color:#8d8d8d;}
+.bbsWrite tbody td p input,
+.bbsWrite tbody td p img {vertical-align:middle;}
+.bbsWrite tbody td p a.upload {margin-left:4px;}
+
+.bbsWrite tbody td .firstName {color:#036883; font-size:11px; font-family:verdana;}
+.bbsWrite tbody td .lastName {color:#036883; font-size:11px; font-family:verdana; margin-left:20px;}
+
+.mailreceive{}
+.mailreceive table {width:90%; table-layout:fixed; border-collapse:collapse; border-left:1px solid #d6d6d4; border-top:1px solid #d6d6d4;}
+.mailreceive tbody {}
+.mailreceive tbody tr {}
+.mailreceive tbody th {width:180px; border-right:1px solid #d6d6d4; border-bottom:1px solid #d6d6d4; background:#e6e8e9; vertical-align:top; padding-top:10px; padding-left:10px;}
+.mailreceive tbody th p {text-align:left; padding-left:20px;}
+.mailreceive tbody td {padding-top:5px; padding-bottom:4px; border-right:1px solid #d6d6d4; border-bottom:1px solid #d6d6d4; background:#fff;}
+.mailreceive tbody td p {text-align:left; padding-left:10px; color:#505050; font-size:11px; font-family:'굴림';}
+.mailreceive tbody td p select {border:1px solid #e3e3e3; color:#8d8d8d;}
+.mailreceive tbody td p input {border:1px solid #e3e3e3; color:#8d8d8d;}
+.mailreceive tbody td p input,
+.mailreceive tbody td p img {vertical-align:middle;}
+.mailreceive tbody td p a.upload {margin-left:4px;}
+
+.mailreceive tbody td .firstName {color:#036883; font-size:11px; font-family:verdana;}
+.mailreceive tbody td .lastName {color:#036883; font-size:11px; font-family:verdana; margin-left:20px;}
+
+/* 버튼 */
+.Btn {text-align:right; padding-top:10px; padding-right:5px;}
+
+
+/*검색결과*/
+.result2 {overflow:hidden; width:591px; margin:110px auto 50px auto;  background:url('/img/c/result_img.gif') left top no-repeat;}
+.result2 .result2_notfound {float:right; width:314px; padding:39px 0 51px 0;}
+
+.result2_notfound .result2_txt {width:298px; border-top:1px dotted #b2b1af; margin-top:16px; padding-top:17px;}
+.result2_notfound .result2_txt strong {display:block; color:#036883;}
+.result2_notfound .result2_txt span {display:block; color:#505050;}
+
+
+/*front 로그인*/
+.loginwrap  {width:431px; margin:130px auto 100px; background:url('/img/c/admin_login_bg.gif') left top no-repeat;}
+.loginwrap .loginbox {position:relative; width:302px; margin:0 auto 26px auto; padding-top:22px; *padding-top:21px;  }
+.loginwrap .loginbox dl {overflow:hidden; width:223px;}
+.loginwrap .loginbox dl dt {float:left; width:59px; font-weight:bolder;}
+.loginwrap .loginbox dl dt span {display:inline-block; padding-top:3px; vertical-align:middle;}
+.loginwrap .loginbox dl dd {float:right;}
+.loginwrap .loginbox dl dd input.input_txt {width:156px; height:14px; padding:3px; border:1px solid #e0e0e0; vertical-align:middle; }
+.loginwrap .loginbox p.loginbtn {position:absolute; top:22px; right:0;}
+.loginwrap .login_txt {width:431px; text-align:center; padding-top:18px; }
+.loginwrap .login_txt .txt_style1 {color:#505050; line-height:21px;}
+.loginwrap .login_txt .txt_style2 {color:#036883;}
+
+
+/* 가입왼료 폼 */
+.joinFinboxRap {width:431px; margin:0 auto 0; padding:9px 11px;}
+.joinFinboxRap .joinFinbox {position:relative; background:url('/img/c/joinFinboxBg.gif') left top no-repeat; width:431px; height:137px; margin:0 auto 26px auto;}
+.joinFinboxRap .joinFinbox .welTxt {position:absolute; top:47px; left:55px; color:#036883; font-weight:bold; font-size:12px;}
+.joinFinboxRap .joinFinbox .welTxt strong {display:block; color:#505050; font-size:12px;}
+.joinFinboxRap .joinFinbox .loginbtn {position:absolute; top:41px; right:60px;}
+
+/*admin 로그인*/
+.floginTit {width:409px; margin:100px auto 0; padding:9px 11px;}
+.floginwrap  {width:431px; height:137px; margin:0 auto 95px; background:url('/img/c/admin_login_bg2.gif') left top no-repeat;}
+.floginwrap .loginbox {position:relative; width:316px; margin:0 auto 30px auto; padding-top:22px; *padding-top:21px;  }
+.floginwrap .loginbox dl {overflow:hidden; width:240px;}
+.floginwrap .loginbox dl dt {float:left; width:73px; font-weight:bolder;}
+.floginwrap .loginbox dl dt span {display:inline-block; padding-top:3px; vertical-align:middle;}
+.floginwrap .loginbox dl dd {float:right;}
+.floginwrap .loginbox dl dd input.input_txt {width:156px; height:14px; padding:3px; border:1px solid #e0e0e0; vertical-align:middle; }
+.floginwrap .loginbox p.loginbtn {position:absolute; top:22px; right:0;}
+.floginwrap .pwSearch {width:316px; margin:0 auto; display:block;}
+.floginwrap .pwSearch a {color:#036883; text-decoration:underline;}
+
+
+.mgb8 {margin-bottom:10px; *margin-bottom:8px; }
+
+.titJoin {height:20px;}
+
+#pwLayer {position:absolute; left:0; top:0; width:100%; height:100%; z-index:10000; display:none;}
+.pwLayerBg {position:absolute; left:0; top:0;  _top:-100px; width:100%; height:100%; filter:alpha(opacity=60); opacity:0.6; background:#000;}
+.pwLayer {position:absolute; left:50%; top:50%; _top:220px; z-index:10000; width:435px; margin-left:-217px; margin-top:-100px;}
+.pwLayer h1 {background:#505050; padding:10px 20px; }
+.pwLayer .layerCnt {background:#fff; padding:10px 20px; border:1px solid #505050; }
+.pwLayer .closeBtn {position:absolute; right:20px; top:10px;}
+#legal {position:absolute; left:0; top:0; width:100%; height:100%; z-index:10000; display:none;}
+#privacy {position:absolute; left:0; top:0; width:100%; height:100%; z-index:10000; display:none;}
+.pwLayer .layerScrollCnt {background:#fff; padding:18px; border:1px solid #505050; }
+.pwLayer .layerScrollCnt .layerScroll {border:1px solid #d4d3d1;overflow:auto; height:173px; padding:10px;}
+
+#downPercent  {position:absolute; left:0; top:0; width:100%; height:100%; z-index:10000; display:none;}
+.downPercent {position:absolute; left:50%; top:50%; _top:220px; z-index:10000; background:#fff; padding:10px 20px;  width:398px; margin-left:-217px; }
+.downPercent .title {overflow:hidden; zoom:1; }
+.downPercent h1 {float:left; white-space:norwap; height:23px; font-size:12px; font-weight:bold; color:#036883; line-height:15px;}
+.downPercent img {float:left; vertical-align:middle; margin-right:5px;}
+.downPercent .percent {border:1px solid #d1d0ce; width:398px; height:22px;}
+.downPercent .percent span {display:block;  height:22px; background:#036883;}
+
+.serchBar {height:33px; text-align:right;}
+.serchBar input {vertical-align:middle; border:1px solid #cdcecf; width:150px; height:14px; padding:3px 5px;}
+.serchBar img {vertical-align:middle;}
+.serchResult {color:#036883; font-size:12px; font-weight:bold;height:33px;}
+
+.pagingBtn {position:relative; font-size:0px; height:0px; }
+.pagingBtn a {position:absolute; right:0px; top:10px;}
+
